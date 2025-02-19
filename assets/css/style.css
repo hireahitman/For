@@ -4578,7 +4578,7 @@ html{
 
 #button {
     display: inline-block;
-    background-color: var(--e-global-color-accent);
+    background-color: #fff;
     width: 75px;
     height: 75px;
     text-align: center;
@@ -4597,6 +4597,7 @@ html{
     animation: spineer 2s infinite;  
     text-decoration: none; 
     cursor: pointer;
+    background-image: url('../../assets/images/whatsapp-btn.png');
 }
 #button::after {
     content: "\f062";
